@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+
 * {
+  font-family: "Noto Sans KR", sans-serif;
   margin: 0px;
 }
 
@@ -31,29 +34,89 @@ body {
 #p1Text2 {
   color: white;
   text-shadow: 4px 2px 2px gray;
-  font-size: 40px;
+  font-size: 10vw;
   font-weight: 600;
   letter-spacing: 0.1px;
   text-align: center;
-  margin-top: 0px;
+  margin-top: -6px;
 }
 
 #p2ThxCard {
   margin-top: 20px;
+  width: 70vw;
 }
 
-/* .blueBox {
-  background-color: #2887C3;
+#p2Branch {
+  width: 30vw;
+  margin-top: 20px;
+}
+
+#nfcQrContainer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+#nfcQrContainer img {
+  width: 35vw;
+}
+
+#p3LOGO {
+  margin-top: 50px;
+  width: 30vw;
+}
+
+#p3Mobile {
+  width: 65vw;
+  margin-top: 40px;
+}
+
+#p4BG {
+  width: 100vw;
+  margin-top: 55px;
+}
+
+#p5ImgContainer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+  width: 80vw;
+}
+
+.p5ContentsContainer div:nth-child(2) {
+  margin-top: 10px;
+  color: #2887c3;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.p5ContentsContainer div:nth-child(3) {
+  font-size: 2vw;
+  opacity: 0.7;
+  text-align: center;
+}
+#p5Img1,
+#p5Img2,
+#p5Img3 {
+  width: 35vw;
+}
+
+#p5Img3 {
+  margin-top: 40px;
+}
+.blueBox {
+  background-color: #2887c3;
   color: white;
-  padding: 3px 10px 0px 10px;
+  padding: 0px 10px 3px 10px;
   font-size: 22px;
   font-weight: 900;
   margin-top: 45px;
   border-radius: 3px;
-} */
+}
 
 .textBox {
-  font-size: 12px;
+  font-size: 3vw;
   opacity: 0.8;
   letter-spacing: 0.1px;
   width: 89vw;
